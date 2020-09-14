@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>おみくじ</title>
+</head>
+
+<body>
+  <link rel="stylesheet" href="omikuji.css">
+
+  <button id="btn">ここをクリックしてね！</button>
+  <div id="disp"></div>
+
+  <script>
+    //let kujiという変数に置き換える
+    let omikujis = ['大吉','吉','中吉','中吉','小吉','小吉','小吉','末吉','末吉','末吉','凶','凶','凶','大凶']
+    let omikuji = Math.floor(Math.random()* omikujis.length);
+    let btn = document.getElementById("btn");
+    let disp = document.getElementById("disp");
+    let num = 0;
+    document.write('<p>今日のあなたの運勢は' + omikujis[omikuji] + 'です</p>');
+    btn.addEventListener("click",function(){
+      let num = Math.floor(Math.random() * omikuji.length);
+      disp.innerHTML = omikujis[num];
+    })
+  </script>
+
+</body>
+</html>
