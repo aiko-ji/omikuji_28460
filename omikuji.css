@@ -1,7 +1,5 @@
-body{
-  background-color: #cefdf9;
-  background: linesr-gradient();
-}
+
+body{background-image: url("https://d1f5hsy4d47upe.cloudfront.net/8c/8cd2966e13a9e41af03f81bb63e4aeec_t.jpeg");}  
 
   p {
   text-align: center;
@@ -21,6 +19,6 @@ body{
   cursor: pointer;
   width: 160px;
   text-align: center;
-  border: 1px solid #232323;
+  border: 2px solid #dd840e;
 }
 

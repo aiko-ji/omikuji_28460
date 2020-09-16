@@ -7,7 +7,9 @@
 </head>
 
 <body>
-  <link rel="stylesheet" href="omikuji.css">
+  <body style="backgronud-image: url(https://d1f5hsy4d47upe.cloudfront.net/8c/8cd2966e13a9e41af03f81bb63e4aeec_t.jpegv;">
+ 
+  <link rel="stylesheet" href="omikuji.css" type="text/css">
 
   <button id="btn">ここをクリックしてね！</button>
   <div id="disp"></div>
@@ -16,15 +18,22 @@
     //let kujiという変数に置き換える
     let omikujis = ['大吉','吉','中吉','中吉','小吉','小吉','末吉','末吉','凶','凶','大凶']
     let omikuji = Math.floor(Math.random() * omikujis.length);
-    let btn = document.getElementById("btn");
-    let disp = document.getElementById("disp");
-    let num = 0;
 
     document.write('<p>今日のあなたの運勢は' + omikujis[omikuji] + 'です</p>');
-    btn.addEventListener("click",function(){
-      let num = Math.floor(Math.random() * omikuji.length);
-      disp.innerHTML = omikujis[num];
+  </script>
+
+  <script>
+    //let omikujis = ['大吉','吉','中吉','中吉','小吉','小吉','末吉','末吉','凶','凶','大凶']
+    let btn = document.getElementById('btn');
+    let disp = document.getElementById('disp');
+    //let num = 0;
+
+    btn.addEventListener('ここをクリックしてね！',function(){
+      let num = Math.floor(Math.random() * omikujis.length);
+      disp.innerHTML = omikujis[omikuji];
+      console
     })
+
   </script>
 
 </body>
