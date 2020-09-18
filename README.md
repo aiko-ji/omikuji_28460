@@ -16,7 +16,7 @@
 
 【使用方法】<br>
 ・クリックボタン（おみくじ型クリック）を押す → 結果のところに今回の運勢が出てくるように表示。（⬇️下記はイメージ図）<br>
-
+![omikuji-torii](https://user-images.githubusercontent.com/68524938/93563954-dffc1500-f9c3-11ea-81b1-dd0a281593e0.png)
 
 
 【開発に向けての課題】<br>
