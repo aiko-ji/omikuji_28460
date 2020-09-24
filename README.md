@@ -19,7 +19,7 @@
 ![omikuji-torii](https://user-images.githubusercontent.com/68524938/93563954-dffc1500-f9c3-11ea-81b1-dd0a281593e0.png)
 
 
-【実装予定の内容】<br>
+【実装で工夫したこと】<br>
 ・HTMLとCSSだけで、JavaScriptの記述を出来るように学習をし簡素にコードを見やすく作成をした。<br>
 ・おみくじの文字を作成時、「今日のあなたの運勢は○○です」○○の所はクリックを押すと文字が変わるように設定する。<br>
 ・○○の文字が変わるようにJavaScriptと条件分岐を使って作成。<br>
